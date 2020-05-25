@@ -10,7 +10,7 @@
     "clean": "sudo rm -rf node_modules/ yarn.lock package-lock.json"
   },
   "author": "Nicholas Adamou",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "wt-cli": "^11.0.2"

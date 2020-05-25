@@ -12,5 +12,5 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "author": "Nicholas Adamou",
-  "license": "ISC"
+  "license": "MIT"
 }
