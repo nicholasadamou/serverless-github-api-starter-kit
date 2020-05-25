@@ -1,0 +1,16 @@
+{
+  "name": "serverless-github-api-starter-kit",
+  "version": "1.0.0",
+  "description": "A starter project for accessing the GitHub API using GraphQL through a serverless WebTasks instance.",
+  "main": "index.js",
+  "scripts": {
+		"wt:serve": "cd functions && yarn start",
+		"wt:install": "cd functions && yarn install",
+		"wt:edit": "cd functions && node_modules/.bin/wt edit",
+		"wt:create": "cd functions && node_modules/.bin/wt init && node_modules/.bin/wt create --name index --prod index.js",
+    "wt:update": "cd functions && node_modules/.bin/wt update index index.js",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "author": "Nicholas Adamou",
+  "license": "ISC"
+}
