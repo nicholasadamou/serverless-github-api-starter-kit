@@ -26,7 +26,9 @@ However, we need to add our GitHub Personal Access Token to the `index` web-task
 yarn wt:edit
 ```
 
-This will open the WebTasks Dashboard. Click on the `index` module in the explorer (if you haven't ran `yarn wt:create` yet, this module will not be there. You must run `yarn wt:create` prior to adding secrets to a given WebTask.), then click on the wrench in the upper-left-hand-corner of the editor and select `secrets`. Click `Add Secret` and enter the following information being sure to type the _key_ value correctly:
+⚠️ **Please Note**: If you haven't ran `yarn wt:create` yet, this module will not be there. You must run `yarn wt:create` prior to adding secrets to a given WebTask.
+
+This will open the WebTasks Dashboard. Click on the `index` module in the explorer, then click on the wrench in the upper-left-hand-corner of the editor and select `secrets`. Click `Add Secret` and enter the following information being sure to type the _key_ value correctly:
 
 ```text
 Key: GITHUB_API_TOKEN
