@@ -4,7 +4,7 @@ This is a starter project for accessing the GitHub API using GraphQL through a s
 
 ## Setting up [WebTasks](https://webtask.io)
 
-In order to make the asynchronous calls to the [Github API](https://developer.github.com/v4/), we must set up a server-less end-point that we can use to fetch information against GitHub's API (e.g. [`functions/index.js`](functions/index.js)).
+In order to make the asynchronous calls to the [Github API](https://developer.github.com/v4/), we must set up a serverless end-point that we can use to fetch information against GitHub's API (e.g. [`functions/index.js`](functions/index.js)).
 
 To install the dependencies necessary to use WebTask's cli, run the following:
 
