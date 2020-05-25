@@ -6,14 +6,14 @@ const query = `
 `;
 
 module.exports = (ctx, cb) => {
-	const github = axios.create({
-		baseURL: "https://api.github.com",
-		headers: {
-			Authorization: `Bearer ${ctx.secrets.GITHUB_API_TOKEN}`,
-		},
-	});
+  const github = axios.create({
+    baseURL: "https://api.github.com",
+    headers: {
+      Authorization: `Bearer ${ctx.secrets.GITHUB_API_TOKEN}`,
+    },
+  });
 
-	github.post("graphql", { query }).then((response) => {
-		cb(null, response.data);
-	});
+  github.post("graphql", { query }).then((response) => {
+    cb(null, response.data);
+  });
 };
