@@ -12,6 +12,8 @@ To install the dependencies necessary to use WebTask's cli, run the following:
 yarn wt:install
 ```
 
+This function will install `axios` and the `wt-cli` which we need in order to make calls to GitHub's end-point.
+
 To create the function within WebTask, run the following:
 
 ```bash
@@ -20,9 +22,7 @@ yarn wt:create
 
 ⚠️ **Please Note**: If you don't run `yarn wt:create`, this module will not exist within the WebTasks Dashboard. You must run `yarn wt:create` prior to adding secrets to a given WebTask.
 
-This function will install `axios` and the `wt-cli` which we need in order to make calls to GitHub's end-point.
-
-However, we need to add our GitHub Personal Access Token to the `index` web-task. To do this, run the following:
+Now, we need to add our GitHub Personal Access Token to the `index` web-task. To do this, run the following:
 
 ```bash
 yarn wt:edit
